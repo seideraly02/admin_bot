@@ -1,0 +1,42 @@
+# Системные файлы macOS, Linux, Windows
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+package-lock.json
+
+# Logs
+logs
+*.log
+
+# Environment variables (если храните в репо, лучше скрыть)
+.env
+.env.*
+.env.local
+
+# Мусор после отладочных запусков и пр.
+*.swp
+*.swo
+
+# Папки с билдом / кэшем
+dist
+build
+.cache
+coverage
+
+# Если используете Docker
+docker-compose.override.yml
+*.dockerfile
+
+# Если храните временные файлы/папки
+tmp
+temp
+
+# IDE/Editor-specific
+.vscode/
+.idea/
+*.iml
